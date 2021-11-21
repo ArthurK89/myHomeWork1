@@ -1,6 +1,6 @@
 package Lesson2;
 
-public class HomeWorkApp {
+public class HomeWorkApp2 {
     public static void main(String[] args) {
         checkSumIn(10, 11);
         numberCheck(-1);
@@ -10,7 +10,7 @@ public class HomeWorkApp {
     }
 
     public static boolean checkSumIn(int a, int b) {
-        return (a + b >= 10 && a<= 20);
+        return (a + b >= 10 && a <= 20);
     }
 
     public static void numberCheck(int a) {
@@ -27,14 +27,14 @@ public class HomeWorkApp {
         } else return false;
     }
 
-    public static void printWordsTimes (String string , int a){
-        for(int i=0; i<a; i++){
-            System.out.printf("string\n"+ "!!");
+    public static void printWordsTimes(String string, int a) {
+        for (int i = 0; i < a; i++) {
+            System.out.printf("string\n" + "!!");
         }
     }
 
-    public static boolean leapYearCheck (int a){
-        if( a%4==0 && a%400==0 && a%100 !=0 ){
+    public static boolean leapYearCheck(int a) {
+        if (a % 4 == 0 && a % 400 == 0 || a % 100 != 0) {
             return true;
         } else return false;
     }
