@@ -9,8 +9,8 @@ public class HomeWorkApp2 {
         leapYearCheck(1989);
     }
 
-    public static boolean checkSumIn(int a, int b) {
-        return (a + b >= 10 && a <= 20);
+    public static boolean checkSumIn (int a, int b) {
+        return (a + b >= 10 && a+b <= 20);
     }
 
     public static void numberCheck(int a) {
